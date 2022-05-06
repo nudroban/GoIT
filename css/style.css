@@ -1,13 +1,23 @@
 body {
     font-family: 'Montserrat', sans-serif; 
 }
+
+a {
+    text-decoration: none;
+    color: orange;
+}
 .main-container{
     display: flex;
     flex-direction: row-reverse;
     width: 1200px;
+    height: 1319px;
     margin: 40px auto;
     background: url(../img/282-2820512_-.jpg);
     background-size: cover;
+}
+
+.main-content-section{
+    padding: 102px 342px 107px 120px;
 }
 .about-me-profession {
     font-size: 14px;
@@ -15,7 +25,7 @@ body {
     color: #000;
 }
 .about-me-section {
-    
+  
 }
 .my-projects-section{
     
@@ -28,11 +38,11 @@ body {
 }
 .sidebar-section{
     background-color: #1E2939;
+    padding: 40px 0  40px;
 }
 .sidebar-text{
     color: #F5F7FA;
-    margin: 40px 20px;
+    padding: 40px 0 0 40px;
+    font-size: 16px;
 }
-li:before{
-    color:#FB6D3A;
-}
+
