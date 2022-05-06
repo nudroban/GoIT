@@ -1,13 +1,13 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #F5F7FA;
+    font-family: 'Montserrat', sans-serif; 
 }
 .main-container{
     display: flex;
     flex-direction: row-reverse;
     width: 1200px;
-    background: #fff;
     margin: 40px auto;
+    background: url(../img/282-2820512_-.jpg);
+    background-size: cover;
 }
 .about-me-profession {
     font-size: 14px;
@@ -15,21 +15,21 @@ body {
     color: #000;
 }
 .about-me-section {
-    background: rgb(245, 245, 146);
+    
 }
 .my-projects-section{
-    background: rgb(146, 189, 245);
+    
 }
 .my-work-experience-section{
-    background: rgb(204, 146, 245);
+    
 }
 .my-education-section{
-    background: rgb(192, 245, 146);
+    
 }
 .sidebar-section{
     background-color: #1E2939;
 }
-.color-sidebar-text{
+.sidebar-text{
     color: #F5F7FA;
     margin: 40px 20px;
 }
