@@ -4,43 +4,163 @@ body {
 
 a {
     text-decoration: none;
+    color: #595959;
 }
 
 .main-container{
     display: flex;
     flex-direction: row-reverse;
     width: 1200px;
-    height: 1319px;
     margin: 40px auto;
-    background: url(../img/282-2820512_-.jpg);
-    background-size: cover;
 }
 
 .main-content-section{
-    
+    padding: 100px 90px;
+    background: url(../img/TtYRjL.jpg);
+    background-size: cover;
 }
 
-.about-me-profession {
-    font-size: 14px;
-    font-weight: 700;
+
+.main_content_tytle{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
     color: #000;
+    margin-bottom: 10px;
 }
 
 .about-me-section {
-  
+    margin-bottom: 40px;
+}
+
+.about-me-profession {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.my_name{
+    font-style: normal;
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #000;
+}
+
+.my_description{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    margin-bottom: 25px;
+    color: #595959;
+    width: 400px;
 }
 
 .my-projects-section{
-    
+    margin-bottom: 50px;
 }
 
-.my-work-experience-section{
-    
+.my_projects_list{
+    padding-left: 18px;
+    font-weight: bold;
 }
 
-.my-education-section{
-    
+.my_projects_item{
+    color: #000;
 }
+
+.my_projects_text{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #595959;
+    margin-left: 5px;
+}
+
+.my_projects_bracket{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* Work experience section */
+
+.my-work-experience-list{
+    padding-left: 18px;
+}
+
+.my_text_position{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+}
+
+.my_periods{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0 0 10px 0;
+}
+
+.my_divider{
+    color: #000;
+}
+
+.text_color{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin: 0 0 10px 0;
+}
+
+.my_duty{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #595959;
+}
+
+.my_company{
+    margin: 0 15px 0 0;
+}
+
+/* Education section */
+
+.my-education-list{
+    padding-left: 18px;
+    margin-bottom: 15px;
+}
+
+.my_education{
+    margin: 0 15px 0 0;
+}
+
+.my_education_text_position{
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+margin: 0 0 10px 0;
+}
+
+/* Sidebar section */
 
 .sidebar-section{
     background-color: #1E2939;
