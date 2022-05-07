@@ -4,8 +4,8 @@ body {
 
 a {
     text-decoration: none;
-    color: orange;
 }
+
 .main-container{
     display: flex;
     flex-direction: row-reverse;
@@ -17,32 +17,87 @@ a {
 }
 
 .main-content-section{
-    padding: 102px 342px 107px 120px;
+    
 }
+
 .about-me-profession {
     font-size: 14px;
     font-weight: 700;
     color: #000;
 }
+
 .about-me-section {
   
 }
+
 .my-projects-section{
     
 }
+
 .my-work-experience-section{
     
 }
+
 .my-education-section{
     
 }
+
 .sidebar-section{
     background-color: #1E2939;
-    padding: 40px 0  40px;
-}
-.sidebar-text{
-    color: #F5F7FA;
-    padding: 40px 0 0 40px;
-    font-size: 16px;
+    width: 370px;
+    padding: 40px 0;
 }
 
+.contact-section,
+.tech-skills-section{
+    margin: 50px 0 0 40px;
+}
+
+.sidebar-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Contacts section */
+
+.contacts-section-type{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.contacts-section-link{
+    color: #565e56;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.soft-skills-section{
+    margin: 45px 0 0 40px;
+}
+
+/* Section fot tech and soft skills */
+
+.skills-listing{
+    padding-left: 17px;
+}
+
+.skills-items{
+    color: #FB6D3A;
+}
+
+.skills-items-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
