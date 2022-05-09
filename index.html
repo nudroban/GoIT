@@ -5,42 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My resume</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Main container -->
-    <div>
+    <div class="main-container">
         <!-- Main content setion -->
-        <div>
+        <div class="main-content-section">
             <!-- About me container -->
-            <div>
+            <div class="about-me-section">
 
-                <h3>Front-End Developer</h3>
+                <h3 class="about-me-profession">Front-End Developer</h3>
                 <h1>Illia Bordun</h1>
 
                 <p>Many of you are familiar with the virtues of being a programmer. There are only three of them, and of course this is: laziness, impatience and pride</p>
             </div>
 
             <!-- My projects container-->
-            <div>
+            <div class="my-projects-section">
                 <h2>Projects</h2>
 
                 <ul>
                     <li>
                         <a href="https://github.com/nudroban">Github link</a>
-                        <span>...........</span>
-                        <span>[ HTML5, CSS3, Ruby, RoR ]</span>   
+                        <span>...........
+                        <span>[ HTML5, CSS3, Ruby, RoR ]   
                     </li>
                 </ul>
             </div>
 
             <!-- My work experience section -->
-            <div>
+            <div class="my-work-experience-section">
 
                 <h2>Work Experience</h2>
 
                 <!-- company 3 -->
                 <div>
-                    <h3>Front-End Developer Freelance</h3>
+                    <h3>Front-End Developer <span>Freelance></h3>
                     <p>October 2021 - up to now  |  Kramatorsk</p>
 
                     <ul>
@@ -78,7 +84,7 @@
             </div>
 
             <!-- My Education container -->
-            <div>
+            <div class="my-education-section">
                 <h2>Education</h2>
 
                 <!-- last education -->
@@ -110,45 +116,45 @@
         </div>
 
         <!-- Sidebare section -->
-        <aside>
-            <img src="img/936997e0-73a7-4fa3-8000-d967f282a8ca.jpg" alt="my photo">
+        <aside class="sidebar-section">
+            <img src="./img/936997e0-73a7-4fa3-8000-d967f282a8ca.jpg" alt="my photo" width="370" >
 
             <!-- Contacts section -->
-            <div>
-                <h3>Contacts</h3>
+            <div class="contact-section">
+                <h3 class="sidebar-title">Contacts</h3>
                 <div>
-                    <span>Phone:</span>
-                    <a href="tel:+380507387969">+38 050 738 79 69</a>
+                    <span class="contacts-section-type">Phone:
+                    <a class="contacts-section-link" href="tel:+380507387969">+38 050 738 79 69</a>
                 </div>
                 <div>
-                    <span>Email:</span>
-                    <a href="mailto:nudrob557@gmail.com">nudrob557@gmail.com</a>
+                    <span class="contacts-section-type">Email:
+                    <a class="contacts-section-link" href="mailto:nudrob557@gmail.com">nudrob557@gmail.com</a>
                 </div>
             </div>
 
             <!-- Tech skills container -->
-            <div>
-                <h3>Tech Skills</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>Git</li>
-                    <li>Ruby</li>
-                    <li>RoR</li>
-                    <li>Apache</li>
-                    <li>SQLite3</li>
-                    <li>Postgresql</li>
+            <div class="tech-skills-section">
+                <h3 class="sidebar-title">Tech Skills</h3>
+                <ul class="skills-listing">
+                    <li class="skills-items"><span class="skills-items-text">HTML5</span></li>
+                    <li class="skills-items"><span class="skills-items-text">CSS</span></li>
+                    <li class="skills-items"><span class="skills-items-text">Git</span></li>
+                    <li class="skills-items"><span class="skills-items-text">Ruby</span></li>
+                    <li class="skills-items"><span class="skills-items-text">RoR</span></li>
+                    <li class="skills-items"><span class="skills-items-text">Apache</span></li>
+                    <li class="skills-items"><span class="skills-items-text">SQLite3</span></li>
+                    <li class="skills-items"><span class="skills-items-text">Postgresql</span></li>
                 </ul>
             </div>
 
             <!-- Soft skills container -->
-            <div>
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>Perseverance</li>
-                    <li>Industriousness</li>
-                    <li>Stress tolerance</li>
-                    <li>TeamWork</li>
+            <div class="soft-skills-section">
+                <h3 class="sidebar-title">Soft Skills</h3>
+                <ul class="skills-listing">
+                    <li class="skills-items"><span class="skills-items-text">Perseverance</span></li>
+                    <li class="skills-items"><span class="skills-items-text">Industriousness</span></li>
+                    <li class="skills-items"><span class="skills-items-text">Stress tolerance</span></li>
+                    <li class="skills-items"><span class="skills-items-text">TeamWork</span></li>
                 </ul>
             </div>
         </aside>
